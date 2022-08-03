@@ -1,1 +1,1 @@
-# A simple React Expense Tracker App.
+# A simple React web application that stores expenses and displays them visually by year.
