@@ -1,0 +1,40 @@
+.expenses-filter {
+  padding: 0;
+  position: relative;
+}
+
+.expenses-filter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0 15px;
+}
+
+.expenses-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.expenses-filter select {
+  font: inherit;
+  padding: 0.5rem 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+  appearance: none;
+  cursor: pointer;
+}
+.expenses-filter__select select {
+  appearance: none;
+}
+.expenses-filter__select {
+  position: relative;
+}
+.expenses-filter__select::after {
+  content: "\25b6";
+  position: absolute;
+  top: 9px;
+  right: 5px;
+  transform: rotate(90deg);
+}
